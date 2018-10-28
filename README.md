@@ -24,8 +24,8 @@ mitmproxy -s ./save_me.py
 ```
 mitmproxy will save everything to your *current working directory*, stopping
 when you kill it. The filenames are just timestamps; I wanted to avoid
-detecting filetypes during HTTP data being sent so mitmproxy could "keep up",
-for lack of a better time.
+detecting filetypes during HTTP data being sent so mitmproxy could "keep up"
+(for lack of a better term).
 
 # Extra
 
